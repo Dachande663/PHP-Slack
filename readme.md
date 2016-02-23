@@ -11,11 +11,12 @@ At the moment this library is mainly focused on [slash commands](https://api.sla
 0.0 Table of Contents
 ---------------------
 
-* Introduction
-* Examples
-* Running Tests
-* Troubleshooting
-* Changelog
+1. Introduction
+3. Install
+3. Examples
+4. Running Tests
+5. Troubleshooting
+6. Changelog
 
 
 1.0 Introduction
@@ -37,7 +38,17 @@ Slash commands make a HTTP POST request to a server and display the result to th
 At the moment there is no support for the Slack Web API or RTM as these have been done elsewhere by others. This library lets you get a slash command online quickly and easily. Look in the examples directory for more info.
 
 
-2.0 Examples
+2.0 Installation
+----------------
+
+PHP Slack is available on Composer via [Packagist](https://packagist.org/packages/hybridlogic/slack). To install simply run:
+
+    composer install hybridlogic/slack
+
+Alternatively clone the git repository and use a PSR-4 compatible autoloader.
+
+
+3.0 Examples
 ------------
 
 ```php
@@ -63,19 +74,19 @@ Slack::dispatcher()
 ```
 
 
-3.0 Running Tests
+4.0 Running Tests
 -----------------
 
 phpunit tests
 
 
-4.0 Troubleshooting
+5.0 Troubleshooting
 -------------------
 
 Make sure you meet the requirements for running a slash command host i.e. publicly accessible and served over HTTPS.
 
 
-5.0 Changelog
+6.0 Changelog
 -------------
 
 * **[2016-02-21]** Initial release
