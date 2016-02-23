@@ -5,7 +5,7 @@ A library of useful classes for working with Slack.
 
 At the moment this library is mainly focused on [slash commands](https://api.slack.com/slash-commands) but may grow in the future. It supports defining multiple commands and matching actions within them.
 
-[![Build Status](https://travis-ci.org/Dachande663/PHP-Slack.png)](https://travis-ci.org/Dachande663/PHP-Slack)
+[![Build Status](https://travis-ci.org/Dachande663/PHP-Slack.png)](https://travis-ci.org/Dachande663/PHP-Slack) [![Packagist](https://img.shields.io/packagist/dt/hybridlogic/slack.svg)](https://packagist.org/packages/hybridlogic/slack)
 
 
 0.0 Table of Contents
