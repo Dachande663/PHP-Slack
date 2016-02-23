@@ -1,0 +1,19 @@
+{
+	"name": "hybridlogic/slack",
+	"description": "A library for working with Slack.",
+	"keywords": ["hybridlogic", "slack", "message"],
+	"homepage": "https://github.com/Dachande663/PHP-Slack",
+	"license": "MIT",
+	"authors": [{
+		"name": "Luke Lanchester",
+		"email": "luke@lukelanchester.com",
+		"homepage": "http://hybridlogic.co.uk",
+		"role": "Developer"
+	}],
+	"autoload": {
+		"psr-0": {"HybridLogic\\Slack": "src/"}
+	},
+	"require": {
+		"php": ">=5.5.0"
+	}
+}
