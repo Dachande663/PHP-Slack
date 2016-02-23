@@ -43,7 +43,7 @@ At the moment there is no support for the Slack Web API or RTM as these have bee
 
 PHP Slack is available on Composer via [Packagist](https://packagist.org/packages/hybridlogic/slack). To install simply run:
 
-    composer install hybridlogic/slack
+    composer require hybridlogic/slack
 
 Alternatively clone the git repository and use a PSR-4 compatible autoloader.
 
